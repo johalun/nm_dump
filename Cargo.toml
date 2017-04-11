@@ -1,0 +1,9 @@
+[package]
+name = "nm_dump"
+version = "0.1.0"
+authors = ["johalun <johalun0@gmail.com>"]
+
+[dependencies]
+netmap = { path = "../netmap-rs" }
+libc = "0.2.21"
+byteorder = "1"
